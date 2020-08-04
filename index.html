@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <title>Kamil Jankowski – Homepage</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+        <button class="nav__button"><span></span>
+            <span></span>
+            <span></span></button>
+    </nav>
+
+    <header class="header">
+        <div class="header__info">
+            <h1 class="header__heading">Hello! I am Kamil Jankowski.</h1>
+            <p class="header__description"> I am a graduate of the Kazimierz Wielki University in Bydgoszcz, majoring in
+                Humanities
+                2.0,
+                specializing in <strong>Webdesign and digital resource management</strong>. This is my website.</p>
+            <a href="#skills" class="button button--skills">See my skills</a>
+            <a target="_blank" rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1_7LWNyLbWWRYBj5YrZBkAYT6Renf4utT/view?usp=sharing"
+                class="button button--resume ">Resume</a>
+        </div>
+
+        <img src="./images/programmer concept.png" alt="hero" class="header__img">
+
+    </header>
+
+    <main>
+        <section class="section section--about" id="about">
+            <div class="section__container" id="gsapAbout">
+                <figure class="about__image__container">
+                    <img src="https://scontent-waw1-1.xx.fbcdn.net/v/t31.0-8/20933833_1465233090237126_6345506413494539224_o.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=GwzRGUXQzIoAX-UGjzA&_nc_ht=scontent-waw1-1.xx&oh=36e520bbba4b94fe2308adc23e5000e0&oe=5F4C98A8"
+                        alt="" class="about__image">
+                    <figcaption class="about__image__description">
+                        Junior Front-end Developer
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://github.com/kamiljankowski2">Github</a>
+                    </figcaption>
+                </figure>
+
+                <div class="section__description">
+                    <h2 class="section__heading">About</h2>
+                    <p>My interest in creating websites and web applications began with my studies, which resulted in
+                        the desire for professional development in this direction.
+                        <br><br>
+                        During studies, I actively participated in the programming group at the
+                        university
+                        for which, among other things, I helped create a website for them.
+                        <br><br>
+
+                        I am looking for an opportunity to take a step forward and start my first job as a developer. I
+                        am open to any apprenticeship or internship, thanks to which I will be able to acquire knowledge
+                        about new technologies.
+                    </p>
+                    <h3>Education</h3>
+                    <ul>
+                        <li><strong>IT Technical School</strong>, Bydgoszcz</li>
+                        <li><strong>Kazimierz Wielki University</strong> in Bydgoszcz</li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--skills" id="skills">
+            <div class="section__container">
+                <div class="section__description">
+                    <h2 class="section__heading">Skills</h2>
+                    <p>
+                        Currently, I spend my free time
+                        learning programming, focusing mainly on frontend technologies, but I also know the basics of
+                        backend
+                        <br><br>
+
+                        I know how to build a semantic and optimal website that will be <strong>well indexed</strong> in
+                        search
+                        engines. I can build <strong>flexible layouts </strong>thanks to which the website will be
+                        looking good on any
+                        device
+
+                        <br><br>
+                        For more advanced projects I use <strong>JavaScript</strong>, mainly <strong>React</strong>. And
+                        for blogging -
+                        <strong>Gatsby.js</strong>.
+                        <br><br>
+                        In my work I also use source control system - <strong>Github</strong>.
+                    </p>
+                </div>
+                <ul class="section__list">
+                    <li class="skills__List__item">
+                        <i class="fab fa-html5 skill__icon skill__icon--html"></i>
+                        HTML
+                    </li>
+                    <li class="skills__List__item">
+                        <i class="fab fa-css3-alt skill__icon skill__icon--css"></i>
+                        CSS</li>
+                    <li class="skills__List__item">
+                        <i class="fab fa-sass skill__icon skill__icon--scss"></i>
+                        SCSS</li>
+                    <li class="skills__List__item">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAAAD////Nzc0kJCTm5uaRkZE9PT2+vr4MDAxKSkr09PTv7+9FRUW2trYyMjKLi4vb29uBgYFvb2/ExMQTExO6urqurq6YmJigoKAeHh4rKyvf39/5+flZWVk4ODh3d3dlZWVRUVFWVlbLy8tpaWlzc3OdnZ0RERHSFOmqAAAD20lEQVR4nO3c2XaiQBSFYUAEGZRJZgSckvd/w8YhiYlGiXI8ZfX+1urVF32R+jUNVVCgKAAAAAAAAAAAAAAAAAAAAAAAAP+JST9z7nHeT/P7KDPucd6vUnuJuMd5PxuFKBQeClEoPhS+fqH8Z/yp2YvHPU4AAACAa4J+Wu5x3k/+ean8awsUolB8KESh+FCIQvGNeuIeJwAAADyi566vm7g7ftfz/uFNcTxNkixtC+Fae15r68t2HM3b5txVp3rOvP+mNJfcXV9ICjuawV32gaqwW3AJ8j3SFap2yh23R1ioqqYIW4tJC4VIpC1UTe4+8kJ1yh049Bn/XMtd6I2HkaZplkz1qvr5kZXchYOaTPLa8uLoW+KYe1QU8tB0Pgt1Sa9EFgtNPyYuuMdCxk0PB+oXvl5+00zbFfrcwyDVVLIXKstK9kLFlb5QaTXen28NxHWNusjfL/2IlneBMfAstPK1aNq4xcVUHiRri6paZ03BnXZEt3rS/Y0A61/i9aG/4c5TyFfAEf/vKvUan3/eTV6ocl82pS/0me9i0BeqgfSFzPNSXx/OL58Wc+FsGHXHWLZhGG63TRN44zfN6YhQSGgyctPMlLnwIA+mwt34BgDp1DI/yz8vFmkk29liMs9Hs3q1CbvTvnmY5jAXRtrAdm8GKyuBZm3k94DZC5+wtmC+lf+EQub9X/SFDW8gfSH7bXziwirkDqQtrGKXu492b2K84q7bIStMPP7L3XvDn/HLtRmHgtTtBN4wgqBpwnaxsoyze4e1QDcTSRgy76fZ0+Tau3cu4Z55E7N89rUFrbEAK2BKi8NGU+b9NGRGi4+NtPxTUwqr+GN3qWrX3IMZWO56b/7pHIf7de7GMFzXaoNgnCWl83Omy/2o3nB3SH+Zw3N/heRrfP4DKXGhzf8YInFhy91HXGi33HkKbaEmxDqYrrBiP4oeUBU6yYw77Yik0PY9izvs0/CFlZOtvs1jRhbrdpNB4/w4SRZnj6oZjjYNjRHXlui+7/q6Jb/8JMJOfdj8Vfnaeh0d/Pm1G1H8zA/lrwrnxlffR8VdcVU6QKHNHXHVPJO9UFEC/XbDaxcqo632WKTwhZ1ZmPplt1J27qJzD/+a4mQC/p7PasO9B9/4b3P53xxBrLa5H7mgtpvTBFI35mV3LPQDof8nPcjbH+8dP1gaIzl3tbtfSzS9m3TH0zsk3BHXtQ+d7PfEnnnvbgQ/Svg5TfborhbhC5VFKXthd0Rdy16oKFZr+mWpO/f8xr5G4U4+c/cP8V2yOf75+uvk37gHDgAAAAAAAAAAAAAAAAAAAAAA8Cz/AMWuYnol0q76AAAAAElFTkSuQmCC"
+                            width="50" alt="">
+                        BEM</li>
+                    <li class="skills__List__item">
+                        <i class="fab fa-bootstrap skill__icon skill__icon--bootstrap"></i>
+                        Bootstrap</li>
+                    <li class="skills__List__item">
+                        <i class="fab fa-js skill__icon skill__icon--js"></i>
+                        JavaScript</li>
+                    <li class="skills__List__item">
+                        <i class="fab fa-react skill__icon skill__icon--react"></i>
+                        React</li>
+                    <li class="skills__List__item">
+                        <img src="https://www.gatsbyjs.org/Gatsby-Monogram.svg" alt="" width="50">
+                        Gatsby.js</li>
+                    <li class="skills__List__item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1024px-Adobe_XD_CC_icon.svg.png"
+                            alt="" width="50">
+                        Adobe XD</li>
+                    <li class="skills__List__item">
+                        <i class="fab fa-github-square skill__icon skill__icon--gh"></i>
+                        GitHub</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section section--projects" id="projects">
+            <div class="section__container section__container--projects">
+                <h2 class="section__heading">Projects</h2>
+                <ul class="section__list section__list--projects">
+                    <li class="skills__List__item project">
+                        <img src="./images/data_storage_monochromatic.png" width="250" alt="">
+                        <h3>Weather app</h3>
+                        <p>An App showing the weather in any city,</p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://github.com/kamiljankowski2/Weather-Application"
+                            class="button button--project">Code</a>
+                    </li>
+                    <li class="skills__List__item project">
+                        <img src="./images/content_creation_monochromatic.png" width="210" alt="">
+                        <h3>To do app</h3>
+                        <p>An app that allows you to save tasks by category</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/kamiljankowski2/to-do-app"
+                            class="button button--project">Code</a>
+                    </li>
+                    <li class="skills__List__item project">
+                        <img src="./images/landing_page.png" width="250" alt="">
+                        <h3>Website</h3>
+                        <p>Personal website for lawyer</p>
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://github.com/kamiljankowski2/radca-prawny"
+                            class="button button--project">Code</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="section section--contact" id="contact">
+            <div class="section__container">
+                <div class="section__description section__contact">
+                    <h2 class="section__heading section__heading--contact">Contact</h2>
+                    <address class="contact__links">
+                        Email: <a href="mailto: kamil.szymon.jankowski@gmail.com"
+                            class="contact__link">kamil.szymon.jankowski@gmail.com</a>
+                        <br><br>
+                        Tel: <a href="tel:784 418 079" class="contact__link">784 418 079</a>
+                        <br><br>
+                        Github: <a target="_blank" rel="noopener noreferrer" href="https://github.com/kamiljankowski2"
+                            class="contact__link">https://github.com/kamiljankowski2</a>
+                    </address>
+
+                </div>
+                <form action="https://formspree.io/xknqqjkp" method="POST" class="contact__form">
+                    <label for="email">
+                        Your email:
+                    </label>
+                    <input required type="email" name="_replyto" id="email" class="contact__input" autocomplete="off">
+                    <label for="content">
+                        Your message:
+                    </label>
+                    <textarea required name="message" id="content" class="contact__input"></textarea>
+
+                    <!-- your other form fields go here -->
+
+                    <button class="button button__submit" type="submit">Send</button>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
